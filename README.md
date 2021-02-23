@@ -4,6 +4,11 @@ You should explore the contents of this project. It demonstrates a CDK app with 
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
+## Install aws-cdk globally
+```bash
+npm i -g aws-cdk
+```
+
 ## Useful commands
 
  * `npm run build`   compile typescript to js
@@ -13,9 +18,14 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
  * `cdk diff`        compare deployed stack with current state
  * `cdk synth`       emits the synthesized CloudFormation template
 
-## Deplyment commands
+## Export aws access and secrets keys
+
 ```bash
-export AWS_ACCESS_KEY_ID={aws-access-key-id} \
-&& export AWS_SECRET_ACCESS_KEY={aws-secret-access-key} \
-&& cdk deploy --stage {stage}
+export AWS_ACCESS_KEY_ID={aws-access-key-id} && export AWS_SECRET_ACCESS_KEY={aws-secret-access-key}
+```
+
+## Deploy the stack
+
+```bash
+cdk deploy --stage {stage}
 ```
