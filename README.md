@@ -1,4 +1,4 @@
-# Welcome to your CDK TypeScript project!
+# AWS-CDK TypeScript Bootrtrap Project
 
 You should explore the contents of this project. It demonstrates a CDK app with an instance of a stack (`CdkStack`)
 
