@@ -27,5 +27,11 @@ export AWS_ACCESS_KEY_ID={aws-access-key-id} && export AWS_SECRET_ACCESS_KEY={aw
 ## Deploy the stack
 
 ```bash
-cdk deploy --stage {stage}
+cdk deploy
+```
+
+## Destroy the stack
+
+```bash
+cdk destroy
 ```
