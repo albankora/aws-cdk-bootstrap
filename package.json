@@ -2,7 +2,7 @@
   "name": "learn_cdk",
   "version": "0.1.0",
   "bin": {
-    "learn_cdk": "bin/learn_cdk.js"
+    "cdk": "bin/learn_cdk.js"
   },
   "scripts": {
     "build": "tsc",
@@ -22,9 +22,6 @@
     "typescript": "~3.9.7"
   },
   "dependencies": {
-    "@aws-cdk/aws-sns": "1.91.0",
-    "@aws-cdk/aws-sns-subscriptions": "1.91.0",
-    "@aws-cdk/aws-sqs": "1.91.0",
     "@aws-cdk/core": "1.91.0"
   }
 }
