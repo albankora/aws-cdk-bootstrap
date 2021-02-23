@@ -9,6 +9,12 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
 npm i -g aws-cdk
 ```
 
+## Env file setup
+```bash
+cp .env.example .env
+```
+Update the `.env` content with your account information
+
 ## Useful commands
 
  * `npm run build`   compile typescript to js
